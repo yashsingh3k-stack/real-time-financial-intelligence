@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-18T13:34:15.063746+00:00",
+  "generated_at": "2026-10-18T15:09:47.183543+00:00",
   "source": "Spark / HDFS Silver Parquet",
   "kpis": {
     "total_transactions": 1000000,
     "unique_customers": 20000,
-    "total_amount": 25075983593.779957,
-    "average_amount": 25075.983593779958,
+    "total_amount": 25075983593.78002,
+    "average_amount": 25075.98359378002,
     "maximum_amount": 49999.98
   },
   "transaction_types": {
