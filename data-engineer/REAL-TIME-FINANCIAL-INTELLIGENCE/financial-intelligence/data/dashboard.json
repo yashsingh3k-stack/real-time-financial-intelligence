@@ -1,0 +1,56 @@
+{
+  "generated_at": "2026-10-18T13:34:15.063746+00:00",
+  "source": "Spark / HDFS Silver Parquet",
+  "kpis": {
+    "total_transactions": 1000000,
+    "unique_customers": 20000,
+    "total_amount": 25075983593.779957,
+    "average_amount": 25075.983593779958,
+    "maximum_amount": 49999.98
+  },
+  "transaction_types": {
+    "purchase": 800296,
+    "refund": 199704
+  },
+  "cities": [
+    {
+      "name": "Hyderabad",
+      "count": 200269
+    },
+    {
+      "name": "Bengaluru",
+      "count": 200236
+    },
+    {
+      "name": "Delhi",
+      "count": 200162
+    },
+    {
+      "name": "Mumbai",
+      "count": 200094
+    },
+    {
+      "name": "Pune",
+      "count": 199239
+    }
+  ],
+  "channels": [
+    {
+      "name": "pos",
+      "count": 333911
+    },
+    {
+      "name": "mobile",
+      "count": 333304
+    },
+    {
+      "name": "web",
+      "count": 332785
+    }
+  ],
+  "anomalies": {
+    "high_value_transactions": 100850,
+    "high_activity_customers": 181,
+    "customer_relative_high_amounts": 1260
+  }
+}

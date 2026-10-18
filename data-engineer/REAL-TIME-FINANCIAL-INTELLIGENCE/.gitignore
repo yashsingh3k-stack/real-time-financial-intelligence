@@ -18,3 +18,7 @@ derby.log
 checkpoints/
 checkpoints_*/
 output/
+
+# Generated transaction datasets (keep local)
+data/samples/transactions_1000000.jsonl
+data/samples/transactions_100_backup.jsonl

@@ -9,8 +9,8 @@ from pyspark.sql.types import (
 )
 
 KAFKA_BOOTSTRAP = "localhost:9092"
-KAFKA_TOPIC = "transactions"
-HDFS_BASE = "hdfs://localhost:9000/financial-intelligence/recovery_run"
+KAFKA_TOPIC = "transactions-million"
+HDFS_BASE = "hdfs://localhost:9000/financial-intelligence/million_run"
 CHECKPOINT = f"{HDFS_BASE}/checkpoints/transactions"
 
 schema = StructType([
