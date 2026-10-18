@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Logs and temporary files
+*.log
+*.bak
+
+# Spark and Hive artifacts
+spark-warehouse/
+metastore_db/
+derby.log
+
+# Generated output and checkpoints
+checkpoints/
+checkpoints_*/
+output/
